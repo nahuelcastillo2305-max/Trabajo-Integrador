@@ -25,7 +25,7 @@ export default function publicaciones() {
 
 // ------Trae las publicaciones desde SupaBase---------
 // Creo una funcion llamada cargarPublicaciones
-async function cargarPublicaciones(params) {
+async function cargarPublicaciones() {
     // cargando los datos
    setCargando(true);
 // Espero la respuesta de Supabase y separo los datos del posible error
@@ -142,6 +142,7 @@ return (
         type="text"
         placeholder="Título"
         value={titulo}
+        required
         onChange={(e) => setTitulo(e.target.value)}
       />
 
@@ -149,6 +150,7 @@ return (
       <textarea
         placeholder="Contenido"
         value={contenido}
+        required
         onChange={(e) => setContenido(e.target.value)}
       />
 
