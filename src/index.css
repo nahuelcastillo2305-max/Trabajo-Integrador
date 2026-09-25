@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+/* Contenedor principal */
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Formulario */
+form {
+  background: #1f2937;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #374151;
+  color: white;
+}
+
+/* Área de contenido */
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Botones */
+button {
+  padding: 10px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Cada publicación */
+.publicacion {
+  background: #1f2937;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+/* Fecha */
+.publicacion small {
+  color: #9ca3af;
+}
